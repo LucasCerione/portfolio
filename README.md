@@ -4,8 +4,7 @@ Bem-vindo ao meu portfólio!
 Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades iniciais em desenvolvimento Front-end, além de centralizar informações profissionais, currículo e formas de contato.
 
 🔗 **Acesse o site:**  
-https://lucascerione.github.io/portfolio
-
+https://portfolio-khaki-theta-44.vercel.app
 ---
 
 ## 🧑‍💻 Sobre mim
