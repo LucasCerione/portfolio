@@ -141,15 +141,45 @@ body {
 /* IMAGEM */
 
 .apresentacao__imagem {
+    position: relative;
     flex: 1;
-    max-width: 500px;
+    max-width: 600px;
+    width: 100%;
     border-radius: 16px;
-    box-shadow: 0 0 40px rgba(34, 212, 253, 0.15);
+    z-index: 2;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.6),
+        0 0 40px rgba(34, 212, 253, 0.25);
+
     transition: 0.4s ease;
+    position: relative;
+    z-index: 2;
 }
 
 .apresentacao__imagem:hover {
     transform: scale(1.02);
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.7),
+        0 0 60px rgba(34, 212, 253, 0.4);
+}
+
+.apresentacao__imagem-wrapper {
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+}
+
+.apresentacao__imagem-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: -20px;
+    border-radius: 24px;
+    background: radial-gradient(circle at center,
+        rgba(34, 212, 253, 0.15),
+        transparent 70%);
+    filter: blur(40px);
+    z-index: 1;
 }
 
 /* REDES */
